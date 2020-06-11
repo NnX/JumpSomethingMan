@@ -153,10 +153,40 @@ public class SnailScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        print("OnCollisionEnter2D");
+        
         if(collision.gameObject.tag == MyTags.PLAYER_TAG) 
         {
             anim.Play("Stunned");
         }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == MyTags.BULLET_TAG)
+        {
+            if(tag == MyTags.BEETLE_TAG)
+            {
+                anim.Play("Stunned");
+
+                isCanMove = false;
+                snailBody.velocity = new Vector2(0, 0);
+                StartCoroutine(Dead(0.4f));
+            }
+            if (tag == MyTags.SNAIL_TAG)
+            {
+                if(!isStunned)
+                {
+                    anim.Play("Stunned");
+                    isStunned = true;
+                    isCanMove = false;
+                    snailBody.velocity = new Vector2(0, 0);
+
+                } else
+                {
+                    gameObject.SetActive(false);
+                }
+
+            }
+        }    
     }
 }

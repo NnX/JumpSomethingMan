@@ -14,6 +14,24 @@ TextureImporter:
   - first:
       213: 21300006
     second: flame_bullet_3
+  - first:
+      213: -3859795643427466110
+    second: flame_bullet_0
+  - first:
+      213: -7196388797745172946
+    second: flame_bullet_1
+  - first:
+      213: -7880000345844414906
+    second: flame_bullet_2
+  - first:
+      213: -8502863450787954114
+    second: flame_bullet_3
+  - first:
+      213: -1152927357106603071
+    second: flame_bullet_4
+  - first:
+      213: 432514063540149058
+    second: flame_bullet_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -90,19 +108,19 @@ TextureImporter:
       name: flame_bullet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 31.25
-        height: 32
+        x: 2
+        y: 2
+        width: 28
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02305410000000000800000000000000
-      internalID: 21300000
+      spriteID: 284d7e7ff404f6ac0800000000000000
+      internalID: -3859795643427466110
       vertices: []
       indices: 
       edges: []
@@ -111,19 +129,19 @@ TextureImporter:
       name: flame_bullet_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 0
-        width: 31.25
-        height: 32
+        x: 37
+        y: 6
+        width: 20
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22305410000000000800000000000000
-      internalID: 21300002
+      spriteID: e2e6ccc348a412c90800000000000000
+      internalID: -7196388797745172946
       vertices: []
       indices: 
       edges: []
@@ -132,19 +150,19 @@ TextureImporter:
       name: flame_bullet_2
       rect:
         serializedVersion: 2
-        x: 62
-        y: 0
-        width: 31.25
-        height: 32
+        x: 68
+        y: 6
+        width: 20
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42305410000000000800000000000000
-      internalID: 21300004
+      spriteID: 6460dfb7f6d94a290800000000000000
+      internalID: -7880000345844414906
       vertices: []
       indices: 
       edges: []
@@ -153,19 +171,19 @@ TextureImporter:
       name: flame_bullet_3
       rect:
         serializedVersion: 2
-        x: 93
-        y: 0
-        width: 31.25
-        height: 32
+        x: 98
+        y: 5
+        width: 21
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62305410000000000800000000000000
-      internalID: 21300006
+      spriteID: e32c12addb2cff980800000000000000
+      internalID: -8502863450787954114
       vertices: []
       indices: 
       edges: []
@@ -173,7 +191,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bfc2934c6a345cf42b6665c75b0936a7
     internalID: 0
     vertices: []
     indices: 
