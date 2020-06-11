@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -70,6 +71,12 @@ public class SnailScript : MonoBehaviour
                     snailBody.velocity = new Vector2(0,0);
                     anim.Play("Stunned");
                     isStunned = true;
+
+                    if(tag == MyTags.BEETLE_TAG)
+                    {
+                        anim.Play("Stunned");
+                        StartCoroutine(Dead(0.5f));
+                    }
                 }
             }
         }
@@ -84,7 +91,11 @@ public class SnailScript : MonoBehaviour
                     print("Damage left");
                 } else
                 {
-                    snailBody.velocity = new Vector2(15f, snailBody.velocity.y);
+                    if(tag != MyTags.BEETLE_TAG)
+                    {
+                        snailBody.velocity = new Vector2(15f, snailBody.velocity.y);
+                        StartCoroutine(Dead(3f));
+                    }
                 }
             }
         } else if(rightHit)
@@ -97,7 +108,11 @@ public class SnailScript : MonoBehaviour
                     print("Damage right");
                 } else
                 {
-                    snailBody.velocity = new Vector2(-15f, snailBody.velocity.y);
+                    if (tag != MyTags.BEETLE_TAG)
+                    {
+                        snailBody.velocity = new Vector2(-15f, snailBody.velocity.y);
+                        StartCoroutine(Dead(3f));
+                    }
                 }
             }
         }
@@ -105,6 +120,13 @@ public class SnailScript : MonoBehaviour
         {
             ChangeDirection();
         }
+
+    }
+
+    IEnumerator Dead(float timer)
+    {
+        yield return new WaitForSeconds(timer); ;
+        gameObject.SetActive(false);
 
     }
 
