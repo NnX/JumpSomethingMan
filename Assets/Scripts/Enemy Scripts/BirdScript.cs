@@ -86,12 +86,10 @@ public class BirdScript : MonoBehaviour
         if(collision.tag == MyTags.BULLET_TAG)
         {
             anim.Play("BirdDead");
+            GetComponent<BoxCollider2D>().isTrigger = true;
+            birdBody.bodyType = RigidbodyType2D.Dynamic;
+            isCanMove = false;
+            StartCoroutine(BirdDead());
         }
-
-        GetComponent<BoxCollider2D>().isTrigger = true;
-        birdBody.bodyType = RigidbodyType2D.Dynamic;
-        isCanMove = false;
-        StartCoroutine(BirdDead());
-
     }
 }
