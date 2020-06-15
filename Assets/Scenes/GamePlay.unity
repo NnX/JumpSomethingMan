@@ -14878,11 +14878,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider
       objectReference: {fileID: 0}
-    - target: {fileID: 1265361320078408856, guid: 1639b35ec94ca6440805ba61b9a68f3b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1639b35ec94ca6440805ba61b9a68f3b, type: 3}
 --- !u!1001 &2725086142344832291
@@ -14947,25 +14942,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2725086142377020653, guid: 5d32ea2458e89b5439f56249a27f3cc5,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 867538595
-      objectReference: {fileID: 0}
-    - target: {fileID: 2725086142377020653, guid: 5d32ea2458e89b5439f56249a27f3cc5,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 2725086142377020655, guid: 5d32ea2458e89b5439f56249a27f3cc5,
         type: 3}
       propertyPath: m_Name
       value: Beetle
-      objectReference: {fileID: 0}
-    - target: {fileID: 2725086142377020655, guid: 5d32ea2458e89b5439f56249a27f3cc5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d32ea2458e89b5439f56249a27f3cc5, type: 3}
@@ -15050,11 +15030,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bird
       objectReference: {fileID: 0}
-    - target: {fileID: 4780025852101553732, guid: 6ce6b2f835d692a48a2e87f15c87ae2e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4780025852101553737, guid: 6ce6b2f835d692a48a2e87f15c87ae2e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15123,11 +15098,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Snail
-      objectReference: {fileID: 0}
-    - target: {fileID: 4818072236386145493, guid: fb7f9fa4880d82a478537c42d96c80a2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4818072236386145494, guid: fb7f9fa4880d82a478537c42d96c80a2,
         type: 3}
@@ -15252,11 +15222,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Frog Parent
-      objectReference: {fileID: 0}
-    - target: {fileID: 8357973746772305494, guid: 652676b8f06b5c34da15a3434729528d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 652676b8f06b5c34da15a3434729528d, type: 3}
