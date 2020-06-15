@@ -54,7 +54,8 @@ public class FireBullet : MonoBehaviour
         print("[FireBullet] OnTriggerEnter2D AAAAAAAAAAA = " + collision.gameObject.tag);
         if(collision.gameObject.tag == MyTags.BEETLE_TAG ||
             collision.gameObject.tag == MyTags.SNAIL_TAG || 
-            collision.gameObject.tag == MyTags.BSPIDER_TAG)
+            collision.gameObject.tag == MyTags.FROG_TAG || 
+            collision.gameObject.tag == MyTags.SPIDER_TAG)
         {
             print("[FireBullet]  OnCollisionEnter2D");
             anim.Play("Explode");

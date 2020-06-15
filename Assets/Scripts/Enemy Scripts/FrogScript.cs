@@ -74,4 +74,17 @@ public class FrogScript : MonoBehaviour
             isJumpLeft = !isJumpLeft;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == MyTags.BULLET_TAG)
+        {
+            StopCoroutine(coroutine_name);
+            frogBody.bodyType = RigidbodyType2D.Dynamic;
+            GetComponent<BoxCollider2D>().isTrigger = true;
+
+            gameObject.SetActive(false);
+
+        }
+    }
 }

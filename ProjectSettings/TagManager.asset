@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Snail
   - Spider
+  - Frog
   layers:
   - Default
   - TransparentFX
@@ -45,4 +46,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackgroundLayer
+    uniqueID: 3838601479
+    locked: 0
+  - name: DecorationsLayer
+    uniqueID: 4043576217
+    locked: 0
+  - name: EnemiesLayer
+    uniqueID: 867538595
+    locked: 0
+  - name: PLayerLayaer
+    uniqueID: 2996700987
     locked: 0
