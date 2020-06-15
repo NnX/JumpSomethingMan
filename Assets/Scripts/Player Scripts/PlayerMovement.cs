@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
 
     bool isGrounded;
     bool isJumped;
-    float jumpPower = 12f;
+    float jumpPower = 17f;
 
     private void Awake()
     {

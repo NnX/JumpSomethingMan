@@ -10,6 +10,7 @@ TagManager:
   - Snail
   - Spider
   - Frog
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -61,4 +62,7 @@ TagManager:
     locked: 0
   - name: BulletLayer
     uniqueID: 763697333
+    locked: 0
+  - name: CollectablesLayer
+    uniqueID: 2336594541
     locked: 0

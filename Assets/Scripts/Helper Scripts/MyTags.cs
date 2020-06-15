@@ -10,4 +10,5 @@ public class MyTags : MonoBehaviour
     public static string BULLET_TAG = "Bullet";
     public static string SPIDER_TAG = "Spider";
     public static string FROG_TAG = "Frog";
+    public static string COIN_TAG = "Coin";
 }
