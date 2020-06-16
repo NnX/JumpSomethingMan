@@ -11,6 +11,7 @@ TagManager:
   - Spider
   - Frog
   - Coin
+  - Boss
   layers:
   - Default
   - TransparentFX

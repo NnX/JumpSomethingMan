@@ -12,7 +12,7 @@ public class PlayerDamage : MonoBehaviour
     private void Awake()
     {
         lifeText = GameObject.Find("LifeText").GetComponent<Text>();
-        lifeScoreCount = 1;
+        lifeScoreCount = 3;
         lifeText.text = "x" + lifeScoreCount;
         isCanDamage = true;
     }
@@ -48,7 +48,7 @@ public class PlayerDamage : MonoBehaviour
     IEnumerator RestartGame()
     {
         yield return new WaitForSecondsRealtime(2f);
-        SceneManager.LoadScene("GamePlay");
+        SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1f;
     }
 

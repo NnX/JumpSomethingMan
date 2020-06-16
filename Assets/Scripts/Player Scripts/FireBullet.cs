@@ -55,6 +55,7 @@ public class FireBullet : MonoBehaviour
         if(collision.gameObject.tag == MyTags.BEETLE_TAG ||
             collision.gameObject.tag == MyTags.SNAIL_TAG || 
             collision.gameObject.tag == MyTags.FROG_TAG || 
+            collision.gameObject.tag == MyTags.BOSS_TAG || 
             collision.gameObject.tag == MyTags.SPIDER_TAG)
         {
             print("[FireBullet]  OnCollisionEnter2D");

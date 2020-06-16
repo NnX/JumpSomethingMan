@@ -16,11 +16,7 @@ public class ScoreScript : MonoBehaviour
         coinTextScore = GameObject.Find("CoinText").GetComponent<Text>();
 
     }
-
-    void Update()
-    {
-        
-    }
+     
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
