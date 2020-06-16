@@ -7767,24 +7767,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.37, y: 0.61}
   m_EdgeRadius: 0
---- !u!1 &907228521 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4766881815054465047, guid: 716a7055b41ba994696ec0a5541b3251,
-    type: 3}
-  m_PrefabInstance: {fileID: 4766881815815836191}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &907228528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907228521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac093c1589d13cb49bcb6c41cba6b086, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &907971466
 GameObject:
   m_ObjectHideFlags: 0
@@ -11040,18 +11022,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1078753512, guid: 04689eb5a8b4e284bb3fec58ecd5bbe4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078753513, guid: 04689eb5a8b4e284bb3fec58ecd5bbe4, type: 3}
-      propertyPath: m_Size.x
-      value: 1.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078753513, guid: 04689eb5a8b4e284bb3fec58ecd5bbe4, type: 3}
-      propertyPath: m_Size.y
-      value: 0.56
-      objectReference: {fileID: 0}
     - target: {fileID: 6223446100187084916, guid: 04689eb5a8b4e284bb3fec58ecd5bbe4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17020,11 +16990,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss
       objectReference: {fileID: 0}
-    - target: {fileID: 4766881815054465047, guid: 716a7055b41ba994696ec0a5541b3251,
-        type: 3}
-      propertyPath: m_TagString
-      value: Boss
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 716a7055b41ba994696ec0a5541b3251, type: 3}
 --- !u!1001 &4780025850871143969
@@ -17172,18 +17137,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1078753512, guid: 04689eb5a8b4e284bb3fec58ecd5bbe4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.23
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078753513, guid: 04689eb5a8b4e284bb3fec58ecd5bbe4, type: 3}
-      propertyPath: m_Size.x
-      value: 1.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078753513, guid: 04689eb5a8b4e284bb3fec58ecd5bbe4, type: 3}
-      propertyPath: m_Size.y
-      value: 0.69
-      objectReference: {fileID: 0}
     - target: {fileID: 6223446100187084916, guid: 04689eb5a8b4e284bb3fec58ecd5bbe4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17239,20 +17192,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6223446100187084917, guid: 04689eb5a8b4e284bb3fec58ecd5bbe4,
-        type: 3}
-      propertyPath: m_FlipY
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6223446100187084919, guid: 04689eb5a8b4e284bb3fec58ecd5bbe4,
         type: 3}
       propertyPath: m_Name
       value: BonusBlock
-      objectReference: {fileID: 0}
-    - target: {fileID: 7646212062365828376, guid: 04689eb5a8b4e284bb3fec58ecd5bbe4,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 2.26
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04689eb5a8b4e284bb3fec58ecd5bbe4, type: 3}

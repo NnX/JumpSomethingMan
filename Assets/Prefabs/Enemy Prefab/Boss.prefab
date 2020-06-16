@@ -44,9 +44,10 @@ GameObject:
   - component: {fileID: 1567615500}
   - component: {fileID: 1567615501}
   - component: {fileID: 907228522}
+  - component: {fileID: 907228528}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -197,3 +198,15 @@ MonoBehaviour:
   bossBone: {fileID: 1784877344744553174, guid: d57017d23e0a0e049bae07688bd8996d,
     type: 3}
   attackInstatniate: {fileID: 252022294}
+--- !u!114 &907228528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4766881815054465047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac093c1589d13cb49bcb6c41cba6b086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
